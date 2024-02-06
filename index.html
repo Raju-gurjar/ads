@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: black;
+            font-family: cursive;
+        }
+        .subscribe-button {
+            background-color: rgb(23 85 158);
+            border: none;
+            border-radius: 30px;
+            padding: 15px;
+            color: white;
+        }
+        button.subscribe-button i {
+            font-size: 16px;
+        }
+        button.subscribe-button a {
+            margin-left: 12px;
+            margin-right: 12px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .resize-font {
+            font-size: 18px;
+        }
+        h1 {
+            margin: 12px 0;
+        }
+        h1 i {
+            color: #b3aa6b;
+        }
+        p.thunder i {
+            font-size: 20px;
+            color: #e6c84a;
+        }
+        p.money-icon i {
+            font-size: 25px;
+            color: #73b07b;
+        }
+        @media screen and (max-width: 480px) {
+            video {
+                width: 100%;
+            }
+            img {
+                width: 80%;
+                min-width: 300px;
+            }
+        }
+        video::-webkit-media-controls-fullscreen-button {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <video width="350" height="350" controls controlsList="nodownload nofullscreen noplaybackrate" disablePictureInPicture={true}>
+        <source src="https://dl.dropboxusercontent.com/scl/fi/s6atr4npq0c7mr85513yp/Project-2.mp4?rlkey=ofdhu6drdgkpkpx2dxzgfeq7b&dl=0" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h1><i class="fa fa-user"></i> IPL FIXER <i class="fa fa-user"></i></h1>
+    <p class="resize-font money-icon" style="margin: 0;"><i class="fa fa-money"></i> Cricket ka Master Tipper <i class="fa fa-money"></i></p>
+    <img style="margin: 10px 0;" src="https://www.dropbox.com/scl/fi/uxpbwpi28be51o7t5e1an/Cricket_World_Cup_trophy.jpg?rlkey=pt7ybsrvg49gblarbdqrur69n&raw=1" alt="image" height="300" width="300">
+    <p class="thunder" style="margin: 0;"><i class="fa fa-bolt"></i> 2022 IPL - 65/66 Pass <i class="fa fa-bolt"></i> <br> <i class="fa fa-bolt"></i> 2023 IPL - 30/30 pass <i class="fa fa-bolt"></i></p>
+    <p class="resize-font">Tipping Industry Ka baap!</p>
+    <button class="subscribe-button">
+        <i class="fa fa-telegram" aria-hidden="true"></i>
+        <a href="https://t.me/SCricexpert8888">SUBSCRIBE NOW FOR FREE</a>
+        <i class="fa fa-telegram" aria-hidden="true"></i>
+    </button>
+</body>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</html>
